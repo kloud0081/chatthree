@@ -1,0 +1,91 @@
+.login {
+    min-height: 100vh;
+  }
+  /* @media (min-width: 992px) {
+    .signupbutton button{width:308%}
+    .updatecartprofilebutton button{width:308%}
+} */
+@media (max-width: 1991px) {
+  .signupbutton button{width:108%}
+  .loginbutton button{width:108%}
+
+    .updatebutton button{width:108%}
+
+}
+
+
+@media (max-width: 700px) {
+    .signupbutton button{width:26%}
+    .loginbutton button{width:26%}
+}
+   
+  .bg-image {
+    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  .success { height:0px}
+
+  .hh{ color : black;font-size:1.5em;text-align: center;margin-top:104px}
+.h1{    
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    margin-top: 1rem;margin-bottom: 2rem;color:#323232;font-weight: 300;}
+/* .b { margin:5px auto;height: 200px;} */
+/* .gg{height: 200px;} */
+.p{font-family: Roboto,sans-serif;    font-size: 15px;    color: #505656;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.label-file {
+  left: 314px;}
+.checkmark {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #4bb71b;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #4bb71b;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+    position:relative;
+    top: 5px;
+    right: 5px;
+   margin: 0 auto;
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #4bb71b;
+    fill: #fff;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+ 
+}
+.modal-footer{margin-top: -38px;}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}

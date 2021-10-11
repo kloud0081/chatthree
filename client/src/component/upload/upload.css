@@ -1,0 +1,46 @@
+.login {
+    min-height: 100vh;
+  }
+  /* @media (min-width: 992px) {
+    .signupbutton button{width:308%}
+    .updatecartprofilebutton button{width:308%}
+} */
+@media (max-width: 1991px) {
+  .signupbutton button{width:108%}
+  .loginbutton button{width:108%}
+
+    .updatebutton button{width:108%}
+
+}
+
+
+@media (max-width: 700px) {
+    .signupbutton button{width:26%}
+    .loginbutton button{width:26%}
+}
+   
+  .bg-image {
+    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  .label-file{    left: 148px;
+    top: 105px;
+    /* margin-top: -41px; */
+    position: absolute;}
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+.label-file:hover {
+    color: #25a5c4;
+}
+
+.input-file {
+    display: none;
+}

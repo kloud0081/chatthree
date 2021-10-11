@@ -1,0 +1,160 @@
+.error{color:red;}
+.flex-wrap{display: flex;flex-wrap: wrap;}
+.singles img{vertical-align: middle;
+  border-style: none;max-width: 100%;
+  width: 21%;
+  height: auto;}
+  .backgroun{background-color:white ; border-radius: 30px;
+  }
+.singles{    padding: 2rem; border-radius: 30px;
+
+}
+.bgsignup{margin-top: -153px;
+  margin-left: 53px;}
+
+.textspan{    display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;}
+  .singleimg{margin-top: 1rem;
+    margin-bottom: 1rem;color: #323232;font-weight: 400;}
+.login {
+    min-height: 100vh;
+  }
+  /* @media (min-width: 992px) {
+    .signupbutton button{width:308%}
+    .updatecartprofilebutton button{width:308%}
+} */
+@media (max-width: 1991px) {
+  .signupbutton button{width:108%}
+  .loginbutton button{width:108%}
+
+    .updatebutton button{width:108%}
+
+}
+
+
+@media (max-width: 700px) {
+    .signupbutton button{width:26%}
+    .loginbutton button{width:26%}
+}
+   
+  /* .bg-image {
+    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  .title {
+    color: black;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    padding-bottom: 18px;
+    color:black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .up{margin-top:100px}
+  
+  .btn-login {
+    margin-top: -5px;
+        background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    /* font-size: 0.9rem; */
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+      border-radius: 12px;
+
+  }
+
+  .btnsignup {
+    margin-left:57px;
+    height: 36px;
+    margin-top: 5px;
+        background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    width: 120px;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+      border-radius: 12px;
+  }
+
+  .loginandpasssword{display: flex;flex-wrap: nowrap;justify-content: center;}
+  .input-group-text {
+    height:44px;
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  
+  form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 10px 5px;
+    background: white no-repeat;
+    
+    /*
+    * IMPORTANT PART HERE
+    */
+    
+    /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+    background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, silver, silver);
+    /* sizes for the 2 images (default state) */
+    background-size: 0 2px, 100% 1px;
+    /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+    background-position: 50% 100%, 50% 100%;
+  
+    /* animation solely on background-size */
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  
+  }
+  
+  input:focus,
+  textarea:focus{
+    /* sizes for the 2 images (focus state) */
+    background-size: 100% 2px, 100% 1px;
+    outline: none;
+  }
+
+  .modal-content{margin-top:    -36px;}
+  .success-animation { margin:5px auto;height:87px}
+
+  .subscribebox {
+ border-radius: 30px;margin-top: -175px;
+    }

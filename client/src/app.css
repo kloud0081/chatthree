@@ -1,0 +1,81 @@
+/* #app{ 
+background-image: url(//cdn.russiancupid.com/assets/images/landing/sites/7/homepage.jpg);
+    background-size: cover;
+    background-position: 50% 65%;
+    background-attachment: fixed;
+} */
+
+body{background-image: url(//cdn.russiancupid.com/assets/images/landing/sites/7/homepage.jpg);
+    background-size: cover;
+    background-position: 50% 65%;
+    background-attachment: fixed;height: 1000px;}
+
+        .profile{background-color: white;background-image: none;margin-top: -20px;height: 2000px;}
+        .MEMBERS{background-color: white;background-image: none;margin-top: -49px;height: 1500px;}
+        .NOTIFICATION{background-color: white;background-image: none;height: 1000px;margin-top: -49px;}
+        .MSG{background-color: white;background-image: none;height: 1000px;}
+
+        .menudashb{background-color: white;background-image: none;height: 1000px;}
+        .navdashb{margin-top:-20px}
+/* .profildashb{margin-top:100px}
+.v-pills-tab{margin-top:300px} */
+
+.infodashbor{color:black}
+        
+.l{            margin-left:200px;margin-top:200px;
+}
+        .lds-heart {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            transform: rotate(45deg);
+            transform-origin: 40px 40px;
+          }
+          .lds-heart div {
+            top: 232px;
+            left: 232px;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background: red;
+            animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+          }
+          .lds-heart div:after,
+          .lds-heart div:before {
+            content: " ";
+            position: absolute;
+            display: block;
+            width: 32px;
+            height: 32px;
+            background: #fff;
+          }
+          .lds-heart div:before {
+            left: -24px;
+            border-radius: 50% 0 0 50%;
+          }
+          .lds-heart div:after {
+            top: -24px;
+            border-radius: 50% 50% 0 0;
+          }
+          @keyframes lds-heart {
+            0% {
+              transform: scale(0.95);
+            }
+            5% {
+              transform: scale(1.1);
+            }
+            39% {
+              transform: scale(0.85);
+            }
+            45% {
+              transform: scale(1);
+            }
+            60% {
+              transform: scale(0.95);
+            }
+            100% {
+              transform: scale(0.9);
+            }
+          }
+          

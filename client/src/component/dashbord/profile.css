@@ -1,0 +1,69 @@
+
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #45b649;
+    background: #fff;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+
+    }
+    .updatecartprofilebutton button{width:308%}
+
+}
+@media (max-width: 991px) {
+    
+    .updatecartprofilebutton button{width:108%}
+    .updatebutton button{width:108%}
+
+}
+
+
+@media (max-width: 700px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        margin-left:50px;
+
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    .nav flex-column nav-pills nav-pills-custom{margin-left: 50px;}
+    .updatecartprofilebutton button{width:36%}
+
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+
+
+.profildashb{margin-top:874px}
+.v-pills-tab{margin-top:30px}
+
+

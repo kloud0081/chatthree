@@ -1,0 +1,175 @@
+.logo svg {
+    width: 130px;
+    height: 70px;
+}
+.logo{display:flex;flex-wrap:nowrap; }
+.maintop{display:flex;flex-wrap:nowrap; justify-content: space-between;  margin-top:40px }
+.left{width:100px}
+.middle{width:100px;margin-left:755px}
+.right{width:200px;height:220px}
+  
+      
+.l{            margin-left:200px;margin-top:200px;
+}
+        .lds-heart {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            transform: rotate(45deg);
+            transform-origin: 40px 40px;
+          }
+          .lds-heart div {
+            top: 232px;
+            left: 232px;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background: red;
+            animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+          }
+          .lds-heart div:after,
+          .lds-heart div:before {
+            content: " ";
+            position: absolute;
+            display: block;
+            width: 32px;
+            height: 32px;
+            background: #fff;
+          }
+          .lds-heart div:before {
+            left: -24px;
+            border-radius: 50% 0 0 50%;
+          }
+          .lds-heart div:after {
+            top: -24px;
+            border-radius: 50% 50% 0 0;
+          }
+          @keyframes lds-heart {
+            0% {
+              transform: scale(0.95);
+            }
+            5% {
+              transform: scale(1.1);
+            }
+            39% {
+              transform: scale(0.85);
+            }
+            45% {
+              transform: scale(1);
+            }
+            60% {
+              transform: scale(0.95);
+            }
+            100% {
+              transform: scale(0.9);
+            }
+          }
+          
+  .dropdown-toggle{    background-color: black;}
+  .login-heading {
+    font-weight: 300;
+  }
+   .loginnormal{
+    width: 153px;background-color: #bf6e89;color:white;margin-left:-76px;
+    /* margin-top: 25px; */
+    /* background-color: #08d; */
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+     margin-top:-6px; 
+    text-align: center;
+    /* font-size: 0.9rem; */
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    padding: 6px 12px;
+    border-bottom: 4px solid;
+    transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+    outline: none;
+    /* padding: 0.75rem 1rem; */
+  }
+
+  .btn-login {
+    width: 153px;background-color: #bf6e89;color:white;margin-left:-76px;
+    /* margin-top: 25px; */
+    /* background-color: #08d; */
+    border-radius: 12px; 
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+     margin-top:-5px; 
+    text-align: center;
+    /* font-size: 0.9rem; */
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    padding: 6px 12px;
+    border-bottom: 4px solid;
+    transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+    outline: none;
+    /* padding: 0.75rem 1rem; */
+  }
+
+  
+  
+  .english {
+    width: 153px;background-color: #bf6e89;color:white;margin-left:-76px;
+    /* margin-top: 25px; */
+    /* background-color: #08d; */
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+     margin-top:-5px; 
+    text-align: center;
+    /* font-size: 0.9rem; */
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    padding: 6px 12px;
+    border-bottom: 4px solid;
+    transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+    outline: none;
+    /* padding: 0.75rem 1rem; */
+  }
+
+  .h1 {
+    font-size: 4rem;margin-bottom:.5rem;color:white;margin:0;line-height: 1.25;width:800px;margin-left:42px;
+    margin-top:78px
+}
+h1{text-shadow: 0 3px 6px rgb(0 0 0 / 40%);
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.h2{
+    color:white;font-weight:400;    margin-top: 1rem;
+    margin-bottom: 1rem;line-height: 1.5;font-size: 1.5rem;width:800px;
+}
+.aa{background-color:white;color:black}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.buttonview{height: 48px;
+    margin-left: 299px;    margin-top: 40px;
+    width: 153px;background-color: #bf6e89;color:white}
+.LOVE{TEXT-DECORATION: NONE;}
+.ppp{border-style: none;background-color: white;}
